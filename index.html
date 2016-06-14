@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+            <meta content="initial-scale=1, maximum-scale=1,user-scalable=no" name="viewport"/>
+            <title>
+                Picture marker
+            </title>
+            <link href="http://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/leaflet.css" rel="stylesheet"/>
+            <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
+                <style>
+                    html, body, #map {
+          height: 100%;
+        }
+        #title {
+          position: absolute;
+          z-index: 999;
+          top: 15px;
+          right: 25px;
+          color: #333;
+        }
+
+        /* Custom icon style */
+        .leaflet-echart-icon {
+          transition: all 1s;
+        }
+
+        .leaflet-container {
+          background: rgba(0,0,0,0);
+        }
+                </style>
+            </link>
+        </meta>
+    </head>
+    <body>
+        <div id="title">
+            <p>
+                Marker echart
+            </p>
+        </div>
+        <div id="map">
+        </div>
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js">
+        </script>
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/leaflet.js">
+        </script>
+        <script src="echarts.min.js">
+        </script>
+        <script src="demo.js">
+        </script>
+    </body>
+</html>
